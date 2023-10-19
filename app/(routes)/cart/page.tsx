@@ -1,6 +1,9 @@
+'use client';
+
 import { Container } from '@/components/ui/Container';
 import { useCart } from '@/hooks/useCart';
 import { CartItem } from './components/CartItem';
+import { Summary } from './components/Summary';
 
 const CartPage = () => {
   const cart = useCart();
