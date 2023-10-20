@@ -1,3 +1,4 @@
+'use client';
 import { Product } from '@/types';
 import toast from 'react-hot-toast/headless';
 import { create } from 'zustand';
